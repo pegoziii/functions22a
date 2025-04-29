@@ -19,3 +19,49 @@ somar(30,20)
 somar(19, 289)
 
 */
+
+
+/* Exemplo 3
+
+function raizQuadrada(numero){
+   return Math.sqrt(numero)
+}
+
+function potenciacao(valor1, valor2){
+    return Math.pow(valor1, valor2)
+}
+
+function multiplicacao(valor1, valor2){
+    return valor1 * valor2 
+
+}
+
+let numero1 = Number(prompt("Digite o primeiro valor: "))
+let numero2 = Number(prompt("Digite o segundo valor: "))
+
+let raiz1 = raizQuadrada(numero1)
+let raiz2 = raizQuadrada(numero2)
+
+console.log(raiz1, raiz2)
+
+*/
+
+
+
+/* Exemplo 3
+function boasVindas(nome, idade){
+    return`
+    Seja bem-vindo(a), ${nome}!
+    ${nome}, você é muito especial!
+    Parabéns pelo seu aniversário de ${idade} anos.
+    `
+}
+
+let nome = prompt("Digite o seu nome: ")
+let idade = prompt("Digite sua Idade: ")
+
+let mensagem = boasVindas(nome, idade)
+
+alert(mensagem)
+console.log(mensagem)
+*/
