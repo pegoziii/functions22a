@@ -48,7 +48,7 @@ console.log(raiz1, raiz2)
 
 
 
-/* Exemplo 3
+/* Exemplo 4
 function boasVindas(nome, idade){
     return`
     Seja bem-vindo(a), ${nome}!
@@ -65,3 +65,32 @@ let mensagem = boasVindas(nome, idade)
 alert(mensagem)
 console.log(mensagem)
 */
+
+/* exemplo 4
+let mensagem = function(){
+    console.log("Seja bem-vindo(a)!")
+}
+
+let somar = function(valor1, valor2){
+    return valor1 + valor2
+}
+
+console.log(mensagem())
+console.log(somar(10, 20))
+*/
+
+
+/* exemplo 5
+let mensagem =   () =>{
+    console.log("Olá, tudo bem?")
+    }
+    
+    let somar =  (valor1, valor2) => valor1 + valor2
+
+    let raizQuadrada = valor1 => Math.sqrt(valor1)
+
+    console.log(mensagem)
+    console.log(somar(25, 768))
+    console.log(raizQuadrada(49))
+    
+    */
