@@ -80,6 +80,10 @@ console.log(somar(10, 20))
 */
 
 
+
+
+
+
 /* exemplo 5
 let mensagem =   () =>{
     console.log("Olá, tudo bem?")
